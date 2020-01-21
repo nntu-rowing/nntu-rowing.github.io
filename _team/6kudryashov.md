@@ -1,4 +1,4 @@
 ---
-title: 'Халямин Владимир'
+title: 'Кудряшов Константин'
 image: '/images/team/peter-van-eijk-711986-unsplash.jpg'
 ---
