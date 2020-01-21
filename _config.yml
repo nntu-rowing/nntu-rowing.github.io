@@ -7,6 +7,7 @@ collections:
   services:
     output: true
     permalink: /services/:path/
+    
   team:
     output: true
     permalink: /team/:path/
