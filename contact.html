@@ -1,0 +1,74 @@
+---
+title: Contact
+layout: default
+bodyClass: page-contact
+---
+
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Контакты</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <ul>
+        <li><strong>Телефон: </strong>{{ site.data.contact.phone }}</li>
+        <li><strong>Почта: </strong><a href="mailto:{{ site.data.contact.email }}">
+            {{ site.data.contact.email }}</a></li>
+        {% if site.data.contact.address %}
+        <li><strong>Адрес: </strong>{{ site.data.contact.address }}</li>
+        {% endif %}
+      </ul>
+      <h4 class="mt-4">Расписание тренировок</h4>
+      <table class="table table-sm opening-hours-table">
+        <tr>
+          <td class="day font-weight-bold">Понедельник</td>
+          <td class="opens">17:00</td>
+          <td>-</td>
+          <td class="closes">19:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Вторник</td>
+          <td class="opens">17:00</td>
+          <td>-</td>
+          <td class="closes">19:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Среда</td>
+          <td class="opens">17:00</td>
+          <td>-</td>
+          <td class="closes">19:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Четверг</td>
+          <td class="opens">17:00</td>
+          <td>-</td>
+          <td class="closes">19:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Пятница</td>
+          <td class="opens">17:00</td>
+          <td>-</td>
+          <td class="closes">19:00</td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Суббота</td>
+          <td class="opens">Выходной</td>
+          <td></td>
+          <td class="closes"></td>
+        </tr>
+        <tr>
+          <td class="day font-weight-bold">Воскресенье</td>
+          <td class="opens">Выходной</td>
+          <td> </td>
+          <td class="closes"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
